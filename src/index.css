@@ -1,6 +1,8 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
+  background-color: lightblue;
+  text-align: center;
 }
 
 ol,
@@ -42,8 +44,11 @@ ul {
 }
 
 .game {
-  display: flex;
+  display: inline-block;
   flex-direction: row;
+  /* background-color: lightcoral; */
+  text-align: center;
+  padding: 10px;
 }
 
 .game-info {
